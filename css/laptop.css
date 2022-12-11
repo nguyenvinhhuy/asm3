@@ -62,8 +62,9 @@
     border: 10px solid white;
     border-radius: 50%;
     z-index: 1000;
-    top: 514px;
-    left: 881px;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -50px;
   }
   /* -------------------about----------------------- */
   #personal-info {
@@ -173,6 +174,9 @@
     top: 5px;
     border-radius: 50%;
     z-index: 1;
+  }
+  .nav-mid {
+    position: relative;
   }
   .info-title {
     font-weight: bold;
